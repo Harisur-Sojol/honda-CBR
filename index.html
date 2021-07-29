@@ -57,9 +57,7 @@
             color: #252B42;
         }
 
-        .info-section-height {
-            height: 300px;
-        }
+       
     </style>
 
 </head>
@@ -86,13 +84,13 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">Yahama Honda CBR</h5>
+                                    <h5 class="modal-title" id="staticBackdropLabel"> Honda CBR</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <p>Honda brought some changes to their youngest CBR 300R for the
-                                        Bangladesh market.Yahama Honda CBR 300R one of the most popular sport bike.The
+                                        Bangladesh market. Honda CBR 300R one of the most popular sport bike.The
                                         bike is available at a reasonable price.If you want to buy
                                     </p>
                                     <h5 class="text-dark"> please enter your card</h5>
@@ -106,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 mt-4">
                     <img width="100%" src="images/header-bike.png" alt="">
                 </div>
             </div>
@@ -130,11 +128,13 @@
                 </div>
                 <div class="col-md-4">
                     <div>
+                        <div class="bike">
                         <img src="images/feature-bike.jpg" width="288" alt="...">
+                    </div>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section> 
 
         <!-- client review section -->
         <section class="container my-5">
@@ -297,7 +297,7 @@
                                 <img src="images/bike-5.png" class="card-img-top " alt="...">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Yahama Honda Cbr 300R</h5>
+                                <h5 class="card-title fw-bold">Honda Cbr 300R</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
                                     animi.</p>
                                 <div class="mt-2 d-flex justify-content-between">
@@ -314,7 +314,7 @@
                                 <img src="images/bike-6.png" class="card-img-top " alt="...">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Yahama Honda Cbr 300R</h5>
+                                <h5 class="card-title fw-bold">Honda Cbr 300R</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
                                     modi?</p>
                                 <div class="mt-2 d-flex justify-content-between">
@@ -331,7 +331,7 @@
                                 <img src="images/bike-6.png" class="card-img-top " alt="...">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Yahama Honda Cbr 300R</h5>
+                                <h5 class="card-title fw-bold">  Honda Cbr 300R</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
                                     modi?</p>
                                 <div class="mt-2 d-flex justify-content-between">
@@ -348,13 +348,26 @@
         </section>
         <!-- extra section 2 -->
         <section
-            class="container bg-color my-5 d-flex justify-content-center align-items-center info-section-height rounded-3">
-            <div>
-                <h1 class="text-white">For More Information</h1>
+            class="container bg-color my-5 d-flex justify-content-center align-items-center info-section-height rounded-3 py-5">
+            <div class="">
+                <h1 class="text-white">For More <span>Information</span></h1>
                 <P class="text-white">Contact With Us</P>
-                <input type="email" placeholder="Your Email" name="Email" id="Email">
-                <br>
-                <button class="btn py-1 px-5 text-white" id="btn-color">Submit</button>
+                <form class="mt-5">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label  text-white" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
             </div>
         </section>
     </main>
